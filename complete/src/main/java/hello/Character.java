@@ -4,6 +4,7 @@ public class Character {
     public String name;
     public Integer initiative;
 
+
     public String getName() {
         return name;
     }
@@ -19,4 +20,5 @@ public class Character {
     public void setInitiative(Integer initiative) {
         this.initiative = initiative;
     }
+
 }
